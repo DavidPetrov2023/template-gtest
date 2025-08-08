@@ -15,6 +15,3 @@ CTestTestfile.cmake
 *.swp
 *.swo
 *.DS_Store
-
-# Ignore everything in external/
-external/

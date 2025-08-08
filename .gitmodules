@@ -13,3 +13,12 @@
 [submodule "external/external/googletest"]
 	path = external/external/googletest
 	url = https://github.com/google/googletest
+[submodule "external/cmsis"]
+	path = external/cmsis
+	url = https://github.com/ARM-software/CMSIS_5
+[submodule "external/threadx"]
+	path = external/threadx
+	url = https://github.com/azure-rtos/threadx
+[submodule "external/STM32CubeG0"]
+	path = external/STM32CubeG0
+	url = https://github.com/STMicroelectronics/STM32CubeG0
