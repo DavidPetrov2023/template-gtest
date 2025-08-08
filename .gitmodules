@@ -1,0 +1,15 @@
+[submodule "external/external/cmsis"]
+	path = external/external/cmsis
+	url = https://github.com/ARM-software/CMSIS_5
+[submodule "external/external/STM32CubeG0"]
+	path = external/external/STM32CubeG0
+	url = https://github.com/STMicroelectronics/STM32CubeG0
+[submodule "external/external/threadx"]
+	path = external/external/threadx
+	url = https://github.com/azure-rtos/threadx
+[submodule "external/external/freertos"]
+	path = external/external/freertos
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel
+[submodule "external/external/googletest"]
+	path = external/external/googletest
+	url = https://github.com/google/googletest

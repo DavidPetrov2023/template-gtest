@@ -1,17 +1,23 @@
 #include "counter.h"
 
-void counter_init(Counter* c) {
-    c->value = 0;
+StatusCode counter_init(Counter* c, int initValue) {
+    if (!c) return STATUS_INVALID_ARG;
+    c->value = initValue;
+    return STATUS_OK;
 }
 
-void counter_increment(Counter* c) {
+StatusCode counter_increment(Counter* c) {
+    if (!c) return STATUS_INVALID_ARG;
     c->value++;
+    return STATUS_OK;
 }
 
-void counter_decrement(Counter* c) {
+StatusCode counter_decrement(Counter* c) {
+    if (!c) return STATUS_INVALID_ARG;
     c->value--;
+    return STATUS_OK;
 }
 
 int counter_get(const Counter* c) {
-    return c->value;
+    return c ? c->value : 0; // defensive: returns 0 if NULL
 }
