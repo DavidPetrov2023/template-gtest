@@ -44,6 +44,8 @@ set(SOURCES
     ${HAL_DIR}/Src/stm32g0xx_hal_exti.c
     ${HAL_DIR}/Src/stm32g0xx_hal_pwr.c
     ${HAL_DIR}/Src/stm32g0xx_hal_pwr_ex.c
+    ${HAL_DIR}/Src/stm32g0xx_hal_tim.c
+    ${HAL_DIR}/Src/stm32g0xx_hal_tim_ex.c    
 )
 
 add_executable(app.elf ${SOURCES})
